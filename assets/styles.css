@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aqua
+}
+
+.top {
+    text-align: center;
+}
+
+.mid {
+    text-align: center;
+}
+
+ul {
+    position:fixed
+    
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+  }
+
+header {
+    border-bottom: 10px solid blue
+}
+
+footer {
+    border-bottom: 10px solid blue;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: aquamarine
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: aquamarine;
+}
+
+li a:hover {
+    background-color: rgb(159, 81, 159);
+}
+
+.nav {
+    text-align: center;
+    color: darkblue;
+}
+
+.text-right {
+    text-align: right;
+}

@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-    <nav class="text-center">
+    <nav class="nav">
         <ul>
            <li><a href="https://github.com/Austin-Online/">Github</a></li>
            <li><a href="#">Portfolio</a></li>
@@ -17,12 +17,33 @@
         </ul>
     </nav>
     </header>
-    
-    <section>
-        <h1>My Website</h1>
+<main>
+    <section class="top">
+        <h1 class="h1">My Website</h1>
         <img src="./assets/dummy_400x200_ffffff_2775c4.png">
+        <p>Thank you for coming to my page! If you would like to contact
+            me, please fill out the form below!
+        </p>
+    </section>
+
+    <section class="mid">
+        <h2><strong>Contact Me</strong></h2>
+        <form>
+        <ul>
+            <li>
+                <label class="text-right" for="name">Name:</label>
+                <input type="text" id="name" name="user-name">
+            </li>
+
+            <li>
+                <label class="text-right" for="email">Email:</label>
+                <input type="text" id="email" name="user-email">
+            </li>
+        </ul>
+    </form>
     </section>
     
+    </main>
 </body>
 
 <footer>My Project 2023</footer>
